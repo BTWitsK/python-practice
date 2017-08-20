@@ -8,6 +8,11 @@
 
 /* Begin PBXFileReference section */
 		0A277A341F40E72F00B30A22 /* Solution1.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Solution1.py; sourceTree = "<group>"; };
+		0A277A351F49E74500B30A22 /* Problem Set */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Problem Set"; path = "problemSet1/Problem Set"; sourceTree = "<group>"; };
+		0A277A361F49E77600B30A22 /* Solution1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Solution1; path = problemSet1/Solution1; sourceTree = "<group>"; };
+		0A277A371F49E8FC00B30A22 /* Solution1.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = Solution1.py; path = problemSet1/Solution1.py; sourceTree = "<group>"; };
+		0A277A381F49EF4B00B30A22 /* Solution2.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Solution2.py; sourceTree = "<group>"; };
+		0A277A391F49F0DE00B30A22 /* Solution2.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = Solution2.py; path = problemSet2/Solution2.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -15,6 +20,11 @@
 			isa = PBXGroup;
 			children = (
 				0A277A341F40E72F00B30A22 /* Solution1.py */,
+				0A277A361F49E77600B30A22 /* Solution1 */,
+				0A277A371F49E8FC00B30A22 /* Solution1.py */,
+				0A277A381F49EF4B00B30A22 /* Solution2.py */,
+				0A277A391F49F0DE00B30A22 /* Solution2.py */,
+				0A277A351F49E74500B30A22 /* Problem Set */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +201,7 @@
 				0A277A321F40E6E000B30A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
