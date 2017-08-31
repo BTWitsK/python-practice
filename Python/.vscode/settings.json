@@ -1,0 +1,14 @@
+{
+    "python.linting.pylintEnabled": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+              "foreground": "#6d7a96"
+            }
+          }
+        ]
+      }
+}
