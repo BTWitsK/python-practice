@@ -3,7 +3,7 @@
 # If the quantity is greater than or equal to 1000, give a 10% discount.
 # Otherwise when the quantity is less 1000 give a 1% discount.
 
-#ask user for quantity and price of item
+#ask user for quantity
 quantity = eval(input('How many items are you purchasing? '))
 
 #ask user for the price per item
@@ -11,11 +11,11 @@ itemPrice = eval(input('What is the price of the item? '))
 
 #Compute and display the extended price
 price = quantity * itemPrice
-print('The pretotal cost of the order is: ' + str(price))
+print('The pretotal cost of the order is: {}'.format(price))
 
 if quantity > 1000:
-    price = price * .90
-    print('The total cost of the order is: ' + str(price)) 
+    price *= .90
+    print('The total cost of the order is: {}'.format(price)) 
 else:
-    price = price * .99
-    print('The total cost of the order is: ' + str(price)) 
+    price *= .99
+    print('The total cost of the order is: {}'.format(price)) 
