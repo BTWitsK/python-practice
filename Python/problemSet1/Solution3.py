@@ -3,17 +3,17 @@
 #discounted price of the item.
 
 #get the price of the item and change it over to a float in case of decimals
-price = float(input('Enter the price of the item: '))
+price = eval(input('Enter the price of the item: '))
 
 #get the discount percentage, convert it to a decimal and get the amount of the discount
-discount = float(input('Enter the % discount: '))
+discount = eval(input('Enter the % discount: '))
 discount = price * (discount / 100)
 
 #compute the price of the item after the discount is applied
 discountPrice = price - discount
 
 #displays the amount of the discount
-print('The discount amount is: $' + str(discount))
+print('The discount amount is: ${}'.format(discount))
 
 #displays the price of the item after discount is applied
-print('The discounted price of the item is: $' + str(discountPrice))
+print('The discounted price of the item is: ${0:.2f}'.format(discountPrice))

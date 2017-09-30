@@ -1,8 +1,8 @@
 #1. Get two numbers from the keyboard. Display the sum, product, difference and quotient of the two numbers.
 
 #Gets the numbers from the user
-firstNum = float(input('Enter the first number: '))
-secondNum = float(input('Enter the second number: '))
+firstNum = eval(input('Enter the first number: '))
+secondNum = eval(input('Enter the second number: '))
 
 #Remember input() takes whatever is typed as a string, float() changes this to a float to allow for decimals
 

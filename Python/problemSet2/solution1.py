@@ -4,10 +4,10 @@
 # Otherwise when the quantity is less 1000 give a 1% discount.
 
 #ask user for quantity and price of item
-quantity = float(input('How many items are you purchasing? '))
+quantity = eval(input('How many items are you purchasing? '))
 
 #ask user for the price per item
-itemPrice = float(input('What is the price of the item? '))
+itemPrice = eval(input('What is the price of the item? '))
 
 #Compute and display the extended price
 price = quantity * itemPrice

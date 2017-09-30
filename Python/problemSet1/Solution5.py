@@ -4,15 +4,15 @@
 #Compute the break even point by dividing fixed costs by the difference of price per unit and cost per unit.
 
 #Asks the user for the fixed cost of the item, and converts it to a float
-fixedCost = float(input('Enter fixed cost of the item: '))
+fixedCost = eval(input('Enter fixed cost of the item: '))
 
 #Asks the user for the price per unit of the item and converts it to a float
-pricePerUnit = float(input('Enter the price per unit of the item'))
+pricePerUnit = eval(input('Enter the price per unit of the item: '))
 
 #Asks the user for the cost per unit of the item and converts it to a float
-costPerUnit = float(input('Enter the cost for each item'))
+costPerUnit = eval(input('Enter the cost for each item: '))
 
 #Computes the break even point by dividing fixed costs by the difference of price per unit and cost per unit.
-breakEvenPoint = str(fixedCost/(pricePerUnit - costPerUnit))
-print(breakEvenPoint)
+breakEvenPoint = fixedCost/(pricePerUnit - costPerUnit)
+print('The break even point is {}'.format(breakEvenPoint))
 
